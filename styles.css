@@ -1,3 +1,4 @@
 @import "./base.css";
+@import "./components/greeting.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");

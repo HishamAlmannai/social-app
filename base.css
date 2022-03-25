@@ -4,6 +4,28 @@
   margin: 0;
 }
 
+:root {
+  --header-height: 75px;
+  --footer-height: 50px;
+
+  --dark: #000000;
+  --medium: #838593;
+  --light: #ffffff;
+  --contrast-text: #f8f8f2;
+  --accent-1: #ff5555;
+  --accent-2: #50fa7b;
+}
+
 html {
   font-family: "Poppins", sans-serif;
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
 }
