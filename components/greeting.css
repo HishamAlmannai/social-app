@@ -22,3 +22,9 @@
   height: auto;
   stroke: black;
 }
+
+@media (min-width: 600px) {
+  .greeting {
+    width: 600px;
+  }
+}
