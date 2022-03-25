@@ -1,0 +1,7 @@
+@import "base.css";
+@import "styles.css";
+
+footer {
+  position: absolute;
+  z-index: 1000;
+}
