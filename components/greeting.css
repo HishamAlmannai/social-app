@@ -1,9 +1,9 @@
 .greeting {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 2rem;
+  width: 100vw;
 }
 
 .greeting__email {
@@ -12,15 +12,14 @@
 }
 
 .greeting__email-frame {
-  border: 0.2rem solid var(--medium);
-  border-radius: 50%;
-  padding: 0.25rem;
 }
 
 .greeting__email-icon {
-  width: 1.5rem;
+  width: 2.5rem;
   height: auto;
-  stroke: black;
+  border: 0.2rem solid var(--medium);
+  border-radius: 50%;
+  padding: 0.25rem;
 }
 
 @media (min-width: 600px) {
