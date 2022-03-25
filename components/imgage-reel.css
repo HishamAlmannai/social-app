@@ -1,0 +1,58 @@
+@import "base.css";
+@import "styles.css";
+
+.image-reel {
+  height: 140px;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: black;
+}
+
+.image-reel__bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.image-reel__card {
+  overflow: hidden;
+}
+
+.image-reel__item {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  gap: 5px;
+}
+
+.image-reel__img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 15%;
+}
+
+.image-reel__iconbackground {
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    rgba(246, 46, 142, 1),
+    rgba(172, 26, 240, 1)
+  );
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image-reel__profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  align-self: center;
+}
