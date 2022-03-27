@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.header__profile {
+  display: flex;
+  background-color: black;
+}
+img {
+  display: flex;
+
+  width: 50rem;
+  height: 50rem;
+  border-radius: 300px;
+  border-style: solid;
+  color: hotpink;
+  opacity: 0.9;
+}
+
+.header-profile-name {
+  color: white;
+}
