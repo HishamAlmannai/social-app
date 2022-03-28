@@ -9,15 +9,16 @@
   --footer-height: 50px;
 
   --dark: #000000;
-  --medium: #838593;
+  --medium: #727477;
   --light: #ffffff;
   --contrast-text: #f8f8f2;
-  --accent-1: #ff5555;
+  --accent-1: #2e8af6;
   --accent-2: #50fa7b;
 }
 
 html {
   font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
   color: var(--light);
   background-color: var(--dark);
 }
@@ -30,6 +31,7 @@ body {
 
 a {
   color: var(--light);
+  text-decoration: none;
 }
 
 h1 {

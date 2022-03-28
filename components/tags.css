@@ -1,0 +1,34 @@
+.tags {
+  padding: 2rem;
+  width: 100vw;
+}
+
+.tags__frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.tags__button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--medium);
+  border-radius: 10rem;
+  font-size: 1rem;
+}
+
+.tags__button:hover {
+  background-color: var(--medium);
+}
+
+.tags__button:active {
+  background-color: var(--accent-1);
+  border-color: var(--accent-1);
+}
+
+@media (min-width: 600px) {
+  .tags {
+    width: 600px;
+  }
+}
