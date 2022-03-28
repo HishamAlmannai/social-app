@@ -14,6 +14,15 @@
 .greeting__email-frame {
 }
 
+.greeting__email-icon:hover {
+  background-color: var(--medium);
+}
+
+.greeting__email-icon:active {
+  background-color: var(--accent-1);
+  border-color: var(--accent-1);
+}
+
 .greeting__email-icon {
   width: 2.5rem;
   height: auto;
