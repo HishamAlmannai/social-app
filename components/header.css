@@ -1,21 +1,84 @@
 * {
   box-sizing: border-box;
 }
+
 .header__profile {
   display: flex;
   background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 375px;
+  position: relative;
+  left: calc(50% - 162.5px);
 }
-img {
+.header-image-profile {
   display: flex;
-
-  width: 50rem;
-  height: 50rem;
+  padding: 2px;
+  border: solid 2px;
   border-radius: 300px;
   border-style: solid;
   color: hotpink;
-  opacity: 0.9;
+
+  position: absolute;
+  left: (50%-75px);
+  top: 160px;
 }
 
+.header_image--back {
+  display: flex;
+}
 .header-profile-name {
+  display: flex;
   color: white;
+  margin-top: 4rem;
+}
+
+.header-profile-city {
+  display: flex;
+  color: gray;
+  font-size: x-small;
+}
+
+.header-profile-text {
+  display: flex;
+  color: white;
+  font-size: x-small;
+  font-weight: 100;
+}
+.info_list {
+  display: flex;
+  gap: 3rem;
+}
+
+.info_list--button {
+  background-color: black;
+  color: lightgray;
+  border: solid 0.5px;
+  border-radius: 30px;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.9rem;
+}
+
+.info_list--followers {
+  color: white;
+  list-style: none;
+}
+
+.info_list--following {
+  color: white;
+  list-style: none;
+}
+
+.info_list--number {
+  font-size: smaller;
+  font-weight: 100;
+}
+
+.info_list--text {
+  font-size: x-small;
+  color: gray;
+  font-weight: 200;
 }
