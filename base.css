@@ -41,3 +41,11 @@ h1 {
 h2 {
   font-weight: bold;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
